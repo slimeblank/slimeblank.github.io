@@ -1,0 +1,32 @@
+body{
+    background-image: url("Images/pp.avif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    color:white;
+    font-family: "Protest Riot";
+    font-size: 72px;
+}
+p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+
+    border-style:outset;
+    border-width: 5px;
+    border-color: white;
+    border-radius:10px;
+    padding: 5px;
+    
+}
+.outlined{
+    color: white; /* Set the color of the text */
+    text-shadow: 
+        -1px -1px 0 black,  
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black; /* Create a shadow around the text */
+}
